@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+  <link href="//db.onlinewebfonts.com/c/40fbe6a81ff9ec94593d0436835fa47f?family=Arquitecta+Medium" rel="stylesheet" type="text/css"/> 
+  <link rel="stylesheet" href="style.css"> 
+  <title>Portfolio</title>
+</head>
+<body>
+<!--NAV BAR START-->
+<nav class="navbar navbar-expand-lg navbar-light">
+  <img src="assets/index_header.png" class="index_header">
+  <button 
+      class="navbar-toggler" 
+      type="button" 
+      data-bs-toggle="collapse" 
+      data-bs-target="#toggleMobileMenu" 
+      aria-controls="toggleMobileMenu" 
+      aria-expanded="false" 
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  <div class="collapse navbar-collapse" id="toggleMobileMenu">
+  <ul class="navbar-nav ml-auto" style="padding-left: 0px;">
+    <li class="nav-item active"><a href="index.html" class="nav-link">Acceuil</a></li>
+    <li class="nav-item active"><a href="gallery.html" class="nav-link">Galerie</a></li>
+    <li class="nav-item active"><a href="expences.html" class="nav-link">Tarifs&prestations</a></li>
+    <li class="nav-item active"><a href="contact.html" class="nav-link">Contact</a></li>
+  </ul>
+  </div>
+</nav>
+<!--NAV BAR END-->
+<br>
+<h1>Galerie</h1>
+<br>
+
+<!--FILTER BUTTON/ DATA TYPE START-->
+<div class="items">
+  <button class="item active"data-name="all">Toutes les Images</button>
+  <button class="item"data-name="marriage">Mariage</button>
+  <button class="item"data-name="pregnancy">Grossesse</button>
+  <button class="item"data-name="baby">Bébé</button>
+  <br>
+  <button class="item"data-name="family">Famille</button>
+  <button class="item"data-name="baptism">Baptême</button>
+  <button class="item"data-name="couple">Couple</button>
+</div>
+<!--FILTER BUTTON/ DATA TYPE END-->
+
+
+<!--FILTER PICTURES START-->
+
+<div class="gallery">
+  
+  <div class="row mt-4">
+  
+  <!--MARRIAGE START-->
+  <div class="image col-sm-6 col-md-4 mb-3" data-name="marriage">
+    <a href="assets/gallery/marriage/marriage_1.jpg" class="fancybox" data-fancybox="gallery1">
+      <img src="assets/gallery/marriage/marriage_1.jpg" width="100%" height="100%">
+    </a>
+  </div>
+
+  <div class="image col-sm-6 col-md-4 mb-3" data-name="marriage">
+    <a href="assets/gallery/marriage/marriage_2.jpg" class="fancybox" data-fancybox="gallery1">
+      <img src="assets/gallery/marriage/marriage_2.jpg" width="100%" height="100%">
+    </a>
+  </div>
+  
+  <div class="image col-sm-6 col-md-4 mb-3" data-name="marriage">
+    <a href="assets/gallery/marriage/marriage_3.jpg" class="fancybox" data-fancybox="gallery1">
+      <img src="assets/gallery/marriage/marriage_3.jpg" width="100%" height="100%">
+    </a>
+  </div>
+  <!--MARRIAGE END-->
+
+  <!--PREGNANCY START-->
+  <div class="image col-sm-6 col-md-4 mb-3" data-name="pregnancy">
+    <a href="assets/gallery/pregnancy/preg_1.jpg" class="fancybox" data-fancybox="gallery1">
+      <img src="assets/gallery/pregnancy/preg_1.jpg" width="100%" height="100%">
+    </a>
+  </div>
+  <div class="image col-sm-6 col-md-4 mb-3" data-name="pregnancy">
+    <a href="assets/gallery/pregnancy/preg_2.jpg" class="fancybox" data-fancybox="gallery1">
+      <img src="assets/gallery/pregnancy/preg_2.jpg" width="100%" height="100%">
+    </a>
+  </div>
+
+  <div class="image col-sm-6 col-md-4 mb-3" data-name="pregnancy">
+    <a href="assets/gallery/pregnancy/preg_3.jpg" class="fancybox" data-fancybox="gallery1">
+      <img src="assets/gallery/pregnancy/preg_3.jpg" width="100%" height="100%">
+    </a>
+  </div>
+  <!--PREGNANCY END-->
+  
+  <!--BABY START-->
+  <div class="image col-sm-6 col-md-4 mb-3" data-name="baby">
+    <a href="assets/gallery/baby/baby_1.jpg" class="fancybox" data-fancybox="gallery1">
+      <img src="assets/gallery/baby/baby_1.jpg" width="100%" height="100%">
+    </a>
+  </div>
+
+  
+
+  <div class="image col-sm-6 col-md-4 mb-3" data-name="baby">
+    <a href="assets/gallery/baby/baby_2.jpg" class="fancybox" data-fancybox="gallery1">
+      <img src="assets/gallery/baby/baby_2.jpg" width="100%" height="100%">
+    </a>
+  </div>
+  <!--BABY END-->
+
+  <!--FAMILLY START-->
+  <div class="image col-sm-6 col-md-4 mb-3" data-name="family">
+    <a href="assets/gallery/family/family_1.jpg" class="fancybox" data-fancybox="gallery1">
+      <img src="assets/gallery/family/family_1.jpg" width="100%" height="100%">
+    </a>
+  </div>
+
+  <div class="image col-sm-6 col-md-4 mb-3" data-name="family">
+    <a href="assets/gallery/family/family_2.jpg" class="fancybox" data-fancybox="gallery1">
+      <img src="assets/gallery/family/family_2.jpg" width="100%" height="100%">
+    </a>
+  </div>
+
+  <div class="image col-sm-6 col-md-4 mb-3" data-name="family">
+    <a href="assets/gallery/family/family_3.jpg" class="fancybox" data-fancybox="gallery1">
+      <img src="assets/gallery/family/family_3.jpg" width="100%" height="100%">
+    </a>
+  </div>
+  <!--FAMILLY END-->
+
+  <!--BAPTISM START-->
+  <div class="image col-sm-6 col-md-4 mb-3" data-name="baptism">
+    <a href="assets/gallery/baptism/baptism_1.jpg" class="fancybox" data-fancybox="gallery1">
+      <img src="assets/gallery/baptism/baptism_1.jpg" width="100%" height="100%">
+    </a>
+  </div>
+
+  <div class="image col-sm-6 col-md-4 mb-3" data-name="baptism">
+    <a href="assets/gallery/baptism/baptism_2.jpg" class="fancybox" data-fancybox="gallery1">
+      <img src="assets/gallery/baptism/baptism_2.jpg" width="100%" height="100%">
+    </a>
+  </div>
+  <!--BAPTISM END-->
+
+  <!--COUPLE START-->
+  <div class="image col-sm-6 col-md-4 mb-3" data-name="couple">
+    <a href="assets/gallery/couple/couple_1.jpg" class="fancybox" data-fancybox="gallery1">
+      <img src="assets/gallery/couple/couple_1.jpg" width="100%" height="100%">
+    </a>
+  </div>
+
+  <div class="image col-sm-6 col-md-4 mb-3" data-name="couple">
+    <a href="assets/gallery/couple/couple_2.jpg" class="fancybox" data-fancybox="gallery1">
+      <img src="assets/gallery/couple/couple_2.jpg" width="100%" height="100%">
+    </a>
+  </div>
+
+  <div class="image col-sm-6 col-md-4 mb-3" data-name="couple">
+    <a href="assets/gallery/couple/couple_3.jpg" class="fancybox" data-fancybox="gallery1">
+      <img src="assets/gallery/couple/couple_3.jpg" width="100%" height="100%">
+    </a>
+  </div>
+  <!--COUPLE END-->
+
+  </div>
+</div>
+
+
+
+<!--FILTER PICTURES END-->
+
+<script src="app.js"></script>
+
+<!--FOOTER START-->
+<footer class="bg-secondary">
+  <div class="conatiner">
+    <div class="row">
+      <div class="col text-center">
+        <h2 class="text-light font-weight-light p-3">Suivez moi sur mes reseaux sociaux!</h3>
+      <div class="py-2">
+        <a href="#"><i class="fab fa-facebook fa-2x text-primary mx-3"></i></a>
+        <a href="#"><i class="fab fa-instagram text-danger fa-2x mx-3"></i></a>
+        <p class="text-light py-4">&copy;Copyright 2021 - Charles Cantin</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!--FOOTER END-->
+
+</body>
+</html>
