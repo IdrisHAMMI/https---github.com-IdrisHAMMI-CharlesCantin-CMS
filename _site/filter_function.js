@@ -1,6 +1,5 @@
-//GALLERY FILTER START
-const filterItem = document.querySelector(".items");
-const filterImg = document.querySelectorAll(".image");
+let filterItem = document.querySelector(".items");
+let filterImg = document.querySelectorAll(".image");
 
 window.onload = ()=> {
     filterItem.onclick = (selectedItem)=> {
@@ -20,4 +19,3 @@ window.onload = ()=> {
       }
     }
 }
-//GALLERY FILTER END

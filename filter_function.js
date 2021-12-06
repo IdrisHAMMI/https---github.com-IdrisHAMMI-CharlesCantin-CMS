@@ -1,4 +1,3 @@
-//GALLERY FILTER START
 const filterItem = document.querySelector(".items");
 const filterImg = document.querySelectorAll(".image");
 
@@ -20,4 +19,3 @@ window.onload = ()=> {
       }
     }
 }
-//GALLERY FILTER END
