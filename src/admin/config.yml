@@ -9,5 +9,3 @@ collections :
     label: "Blog"
     folder: "_site"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-  - { label : "Title", name: "title", widget: "string" }
