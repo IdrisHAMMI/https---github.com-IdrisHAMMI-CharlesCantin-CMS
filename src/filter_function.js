@@ -1,3 +1,4 @@
+//FILTER FUNCTION START
 let filterItem = document.querySelector(".items");
 let filterImg = document.querySelectorAll(".image");
 
@@ -19,3 +20,4 @@ window.onload = ()=> {
       }
     }
 }
+//FILTER FUNCTION END
