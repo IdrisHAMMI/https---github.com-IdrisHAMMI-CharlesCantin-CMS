@@ -1,4 +1,4 @@
-# Deploiment sur Netlify CMS
+# Deploiment sur Netlify
 
 Pour les besoins de ce projet, je vais expliquer comment **j'ai déployé mon site web statique sur Netlify**.
 
