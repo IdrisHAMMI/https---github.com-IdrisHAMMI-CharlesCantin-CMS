@@ -2,6 +2,8 @@
 
 Pour les besoins de ce projet, je vais expliquer comment **j'ai déployé mon site web statique sur Netlify**.
 
+Pour déployer notre site web, nous devons d'abord créer un compte sur Netlify. 
+
 Après avoir créé le compte, nous serons redirigés vers un tableau de bord personnel, pour ajouter notre site, nous devons aller dans l'onglet "Sites", ajouter un nouveau site et sélectionner *"Import an existing project".*
 
 Le site Web nous renvoie à une autre page, qui nous demande de nous connecter à **Github, GitLab ou BitBucket**, qui sont tous des dépôts d'hébergement git.
